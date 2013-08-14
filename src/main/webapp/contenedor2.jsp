@@ -1,3 +1,4 @@
+
 <!--
 
 viewport - identifica el ancho del cliente web que lo esta abriendo
@@ -17,17 +18,29 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+		<style>
+			.estilo-contenedor{				
+				background-color: gray;
+				height: 1000px;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Hola mundo!</h1>
 		
-		
-		<ul>
-			<li>
-				<a href="${pageContext.request.contextPath}/contenedor/1">contenedor 1</a>
-			</li>
-		</ul>
-		
+		<!-- Contenedor 
+			estilo-contenedor - el contenedor toma el conjunto de estilos de la clase
+					    'estilo-contenedor'
+		-->
+		<div class="container estilo-contenedor">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+			sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+			magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+			quis nostrud exerci tation ullamcorper suscipit lobortis 
+			nisl ut aliquip ex ea commodo consequat
+		</div>
+
+
 		<script src="http://code.jquery.com/jquery.js"></script>
 	</body>
 </html>

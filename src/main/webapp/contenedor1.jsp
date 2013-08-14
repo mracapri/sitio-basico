@@ -1,3 +1,4 @@
+
 <!--
 
 viewport - identifica el ancho del cliente web que lo esta abriendo
@@ -19,15 +20,17 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		<h1>Hola mundo!</h1>
 		
-		
-		<ul>
-			<li>
-				<a href="${pageContext.request.contextPath}/contenedor/1">contenedor 1</a>
-			</li>
-		</ul>
-		
+		<!-- Contenedor -->
+		<div class="container" style="background-color:gray;">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+			sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+			magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+			quis nostrud exerci tation ullamcorper suscipit lobortis 
+			nisl ut aliquip ex ea commodo consequat
+		</div>
+
+
 		<script src="http://code.jquery.com/jquery.js"></script>
 	</body>
 </html>

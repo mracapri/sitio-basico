@@ -10,14 +10,26 @@
     <servlet>
     	<description>
     	</description>
-    	<display-name>IndexController</display-name>
-    	<servlet-name>IndexController</servlet-name>
+    	<display-name>IndexPage</display-name>
+    	<servlet-name>IndexPage</servlet-name>
     	<servlet-class>com.novenoa.sitiobasico.controlador.IndexPage</servlet-class>
     </servlet>
     <servlet-mapping>
-    	<servlet-name>IndexController</servlet-name>
+    	<servlet-name>IndexPage</servlet-name>
     	<url-pattern>/index</url-pattern>
     </servlet-mapping>
     
+    
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ContenedorPage</display-name>
+    	<servlet-name>ContenedorPage</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.controlador.ContenedorPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>ContenedorPage</servlet-name>
+    	<url-pattern>/contenedor/*</url-pattern>
+    </servlet-mapping>
    
 </web-app>
