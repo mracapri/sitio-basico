@@ -17,7 +17,7 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		<title>Pagina web</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="${pageContext.request.contextPath}/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 		<style>
 			.derecho{

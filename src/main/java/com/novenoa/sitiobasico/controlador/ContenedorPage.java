@@ -20,7 +20,16 @@ public class ContenedorPage extends HttpServlet {
     }
     
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher view = request.getRequestDispatcher("/contenedor1.jsp");
+		RequestDispatcher view = null;
+		if(request.getRequestURI().contains("/1")){
+	        view = request.getRequestDispatcher("/contenedor1.jsp");
+		}else if(request.getRequestURI().contains("/2")){
+	        view = request.getRequestDispatcher("/contenedor2.jsp");
+		}else if(request.getRequestURI().contains("/3")){
+	        view = request.getRequestDispatcher("/contenedor3.jsp");
+		}else if(request.getRequestURI().contains("/4")){
+	        view = request.getRequestDispatcher("/contenedor4.jsp");
+		}
         view.forward(request, response);
 	}
 }
