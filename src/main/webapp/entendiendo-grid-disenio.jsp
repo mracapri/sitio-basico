@@ -1,4 +1,3 @@
-
 <!--
 
 viewport - identifica el ancho del cliente web que lo esta abriendo
@@ -20,35 +19,60 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		<link href="${pageContext.request.contextPath}/recursos-web/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 		<style>
-			.derecho{
+			*[class*=span]{
 				background-color: #9999FF;
-			}
-			
-			.izquierdo{
-				background-color: #FFAAAA;
 			}
 		</style>
 	</head>
 	<body>
 		
-		<!-- Contenedor 
-			derecho    - aplica el estilo derecho al contenedor span2
-			izquierdo  - aplica el estilo derecho al contenedor span10
-		-->
+		<!-- Contenedor -->
 		<div class="container">
 			<div class="row">
-				<div class="span2 derecho">
-					Duis autem vel eum iriure dolor in hendrerit in vulputate 
-					velit esse molestie consequat
-				</div>
-				<div class="span10 izquierdo">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-					sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
-					magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
-					quis nostrud exerci tation ullamcorper suscipit lobortis 
-					nisl ut aliquip ex ea commodo consequat
-				</div>
+				<div class="span1">1</div>
+				<div class="span1">2</div>
+				<div class="span1">3</div>
+				<div class="span1">4</div>
+				<div class="span1">5</div>
+				<div class="span1">6</div>
+				<div class="span1">7</div>
+				<div class="span1">8</div>
+				<div class="span1">9</div>
+				<div class="span1">10</div>
+				<div class="span1">11</div>
+				<div class="span1">12</div>
 			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="span1">1</div>
+				<div class="span3">2</div>
+				<div class="span3">3</div>
+				<div class="span3">4</div>
+				<div class="span2">5</div>
+			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="span4">1</div>
+				<div class="span4">2</div>
+				<div class="span4">3</div>
+			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="span6">1</div>
+				<div class="span6">2</div>
+			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="span12">1</div>
+			</div>			
 		</div>
 
 

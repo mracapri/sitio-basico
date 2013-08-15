@@ -1,4 +1,3 @@
-
 <!--
 
 viewport - identifica el ancho del cliente web que lo esta abriendo
@@ -18,6 +17,7 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<link href="${pageContext.request.contextPath}/recursos-web/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="${pageContext.request.contextPath}/recursos-web/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
 		<style>
 			.derecho{
@@ -32,11 +32,12 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 	<body>
 		
 		<!-- Contenedor 
-			derecho    - aplica el estilo derecho al contenedor span2
-			izquierdo  - aplica el estilo derecho al contenedor span10
+			container-fluid y row-fluid - Hacen que el html se vuelva fluido al cambio de anchura
+						      del cliente web
+	
 		-->
-		<div class="container">
-			<div class="row">
+		<div class="container-fluid">
+			<div class="row-fluid">
 				<div class="span2 derecho">
 					Duis autem vel eum iriure dolor in hendrerit in vulputate 
 					velit esse molestie consequat

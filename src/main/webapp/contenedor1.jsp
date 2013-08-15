@@ -31,6 +31,6 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		</div>
 
 
-		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="${pageContext.request.contextPath}/recursos-web/jquery/jquery-1.8.3.js"></script>
 	</body>
 </html>

@@ -7,6 +7,45 @@
  
     <display-name>noveno9</display-name>
 
+    
+	<servlet>
+    	<description>
+    	</description>
+    	<display-name>CssMediaQueryPage</display-name>
+    	<servlet-name>CssMediaQueryPage</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.controlador.CssMediaQueryPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>CssMediaQueryPage</servlet-name>
+    	<url-pattern>/css-media-query</url-pattern>
+    </servlet-mapping>
+ 
+    
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>DisenioResponsivoPage</display-name>
+    	<servlet-name>DisenioResponsivoPage</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.controlador.DisenioResponsivoPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>DisenioResponsivoPage</servlet-name>
+    	<url-pattern>/responsivo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>GridPage</display-name>
+    	<servlet-name>GridPage</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.controlador.GridPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>GridPage</servlet-name>
+    	<url-pattern>/grid</url-pattern>
+    </servlet-mapping>
+
+
     <servlet>
     	<description>
     	</description>

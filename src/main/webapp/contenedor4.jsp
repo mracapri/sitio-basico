@@ -17,7 +17,7 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		<title>Pagina web</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<link href="${pageContext.request.contextPath}/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="${pageContext.request.contextPath}/recursos-web/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 		<style>
 			.derecho{
@@ -53,6 +53,6 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 		</div>
 
 
-		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="${pageContext.request.contextPath}/recursos-web/jquery/jquery-1.8.3.js"></script>
 	</body>
 </html>
