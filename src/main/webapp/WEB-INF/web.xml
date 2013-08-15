@@ -7,6 +7,18 @@
  
     <display-name>noveno9</display-name>
 
+	<servlet>
+    	<description>
+    	</description>
+    	<display-name>CalculadoraPage</display-name>
+    	<servlet-name>CalculadoraPage</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.controlador2.CalculadoraPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>CalculadoraPage</servlet-name>
+    	<url-pattern>/formulario-calculadora</url-pattern>
+    </servlet-mapping>
+
     
 	<servlet>
     	<description>

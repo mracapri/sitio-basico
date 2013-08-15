@@ -44,6 +44,12 @@ link     - Con la etiqueta link, agregamos una hoja de estilo externa al documen
 			<li>
 				<a href="${pageContext.request.contextPath}/css-media-query">Css Media Query</a>
 			</li>
+			<li>
+				<a href="${pageContext.request.contextPath}/formulario-calculadora">Calculadora</a>
+			</li>
+			<li>
+				<a href="${pageContext.request.contextPath}/incorrecto.jsp">Incorrecto</a>
+			</li>		
 		</ul>
 		
 		<script src="${pageContext.request.contextPath}/recursos-web/jquery/jquery-1.8.3.js"></script>
