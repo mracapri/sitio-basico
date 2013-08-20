@@ -7,6 +7,38 @@
  
     <display-name>noveno9</display-name>
 
+
+	<servlet>
+    	<description>
+    	</description>
+    	<display-name>mipez</display-name>
+    	<servlet-name>pez</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.controlador.ControladorNombre</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+    	<servlet-name>pez</servlet-name>
+    	<url-pattern>/nombre</url-pattern>
+    </servlet-mapping>
+
+
+	<servlet>
+    	<description>
+    	</description>
+    	<display-name>miperro</display-name>
+    	<servlet-name>perro</servlet-name>
+    	<servlet-class>com.novenoa.sitiobasico.micontrolador.MiControlador</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+    	<servlet-name>perro</servlet-name>
+    	<url-pattern>/mipagina</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
 	<servlet>
     	<description>
     	</description>
